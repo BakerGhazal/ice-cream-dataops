@@ -9,7 +9,6 @@ environment:
   
 
 variables:
-  6f828d13-ea93-426f-b8d7-5040ed35aab8: "icapi_extractors"
 
   modules:
     bootcamp:
