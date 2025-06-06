@@ -16,9 +16,9 @@ variables:
       icapi_ds_external_id: ds_icapi
       icapi_space_name: icapi_dm_space
       data_foundation:
-        data_developer_source_id: 52cfddc2-b4ea-4ab4-b841-07bbe2b70d56
+        data_developer_source_id: 2e1ea07f-5991-48d3-870a-0963bd19182f
       ice_cream_api:
-        icapi_extractors_source_id: 6f828d13-ea93-426f-b8d7-5040ed35aab8
+        icapi_extractors_source_id: 1e7ebe66-667a-400a-b30f-3f4e4f41eb12
         tokenUri: ${IDP_TOKEN_URL}
         cdfProjectName: ${CDF_PROJECT}
         scopes: ${IDP_SCOPES}
