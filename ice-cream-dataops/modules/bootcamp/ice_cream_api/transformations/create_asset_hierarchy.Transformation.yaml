@@ -1,13 +1,8 @@
 externalId: create_asset_hierarchy
 name: Create Cognite Asset Hierarchy
 destination:
-  dataModel:
-    space: cdf_cdm
-    externalId: CogniteCore
-    version: v1
-    destinationType: CogniteAsset
-  instanceSpace: icapi_dm_space
-  type: instances
+  type: assets
+
 ignoreNullFields: true
 isPublic: true
 conflictMode: upsert
@@ -19,3 +14,4 @@ authentication:
   tokenUri: {{ tokenUri }}
   cdfProjectName: {{ cdfProjectName }}
   scopes: {{ scopes }}
+  
